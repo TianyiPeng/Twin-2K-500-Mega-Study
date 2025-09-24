@@ -1,0 +1,165 @@
+study_name,DV_variable,DV_min,DV_max
+Accuracy Nudge,Fake1_3,1,6
+Accuracy Nudge,Fake2_3,1,6
+Accuracy Nudge,Fake3_3,1,6
+Accuracy Nudge,Fake4_3,1,6
+Accuracy Nudge,Fake5_3,1,6
+Accuracy Nudge,Fake6_3,1,6
+Accuracy Nudge,Fake7_3,1,6
+Accuracy Nudge,Fake8_3,1,6
+Accuracy Nudge,Real1_3,1,6
+Accuracy Nudge,Real2_3,1,6
+Accuracy Nudge,Real3_3,1,6
+Accuracy Nudge,Real4_3,1,6
+Accuracy Nudge,Real5_3,1,6
+Accuracy Nudge,Real6_3,1,6
+Accuracy Nudge,Real7_3,1,6
+Accuracy Nudge,Real8_3,1,6
+Affective Primes,gratitude,1,7
+Affective Primes,lack of control,1,7
+Affective Primes,gratitude_manipulation_check,1,7
+Affective Primes,lack_of_control_manipulation_check,1,7
+Consumer Minimalism,Q33,1,7
+Consumer Minimalism,Q35,1,7
+Consumer Minimalism,Q38,1,7
+Consumer Minimalism,Q26,1,7
+context effects,choice_target_binary,0,1
+context effects,choice_target_attraction,0,1
+context effects,choice_target_compromise,0,1
+Defaults,target_behavior_green,0,1
+Defaults,target_behavior_organ,0,1
+Digital certificates for luxury consumption,DV1,3,21
+Digital certificates for luxury consumption,log_WTP,nan,nan
+hiring algorithms,Q6,1,5
+hiring algorithms,Q8,1,5
+hiring algorithms,Q9,1,4
+hiring algorithms,Q10,1,5
+hiring algorithms,Q13,1,5
+hiring algorithms,Q14,1,4
+hiring algorithms,Q15,1,5
+hiring algorithms,Q16,1,5
+hiring algorithms,job1_item1,1,7
+hiring algorithms,job1_item2,1,7
+hiring algorithms,job1_item3,1,7
+hiring algorithms,job1_item4,1,7
+hiring algorithms,job1_item5,1,7
+hiring algorithms,job1_item6,1,7
+hiring algorithms,job1_item7,1,7
+hiring algorithms,job1_item8,1,7
+hiring algorithms,job2_item1,1,7
+hiring algorithms,job2_item2,1,7
+hiring algorithms,job2_item3,1,7
+hiring algorithms,job2_item4,1,7
+hiring algorithms,job2_item5,1,7
+hiring algorithms,job2_item6,1,7
+hiring algorithms,job2_item7,1,7
+hiring algorithms,job2_item8,1,7
+hiring algorithms,job3_item1,1,7
+hiring algorithms,job3_item2,1,7
+hiring algorithms,job3_item3,1,7
+hiring algorithms,job3_item4,1,7
+hiring algorithms,job3_item5,1,7
+hiring algorithms,job3_item6,1,7
+hiring algorithms,job3_item7,1,7
+hiring algorithms,job3_item8,1,7
+hiring algorithms,job4_item1,1,7
+hiring algorithms,job4_item2,1,7
+hiring algorithms,job4_item3,1,7
+hiring algorithms,job4_item4,1,7
+hiring algorithms,job4_item5,1,7
+hiring algorithms,job4_item6,1,7
+hiring algorithms,job4_item7,1,7
+hiring algorithms,job4_item8,1,7
+idea evaluation,rating1,1,5
+idea evaluation,rating2,1,5
+idea evaluation,rating3,1,5
+idea evaluation,rating4,1,5
+idea evaluation,rating5,1,5
+idea evaluation,rating6,1,5
+idea evaluation,rating7,1,5
+idea evaluation,rating8,1,5
+idea evaluation,rating9,1,5
+idea evaluation,rating10,1,5
+idea evaluation,rating11,1,5
+idea evaluation,rating12,1,5
+idea evaluation,rating13,1,5
+idea evaluation,rating14,1,5
+idea evaluation,rating15,1,5
+idea evaluation,rating16,1,5
+idea evaluation,rating17,1,5
+idea evaluation,rating18,1,5
+idea evaluation,rating19,1,5
+idea evaluation,rating20,1,5
+idea generation,DAT_perf,nan,nan
+idea generation,SSPT,nan,nan
+idea generation,creativity_rating_byhuman,1,5
+infotainment news sharing,Profile1,1,8
+infotainment news sharing,Profile2,1,8
+infotainment news sharing,Profile3,1,8
+infotainment news sharing,Profile4,1,8
+infotainment news sharing,Profile5,1,8
+infotainment news sharing,Profile6,1,8
+infotainment news sharing,Profile7,1,8
+infotainment news sharing,Profile8,1,8
+infotainment news sharing,Profile9,1,8
+infotainment news sharing,Profile10,1,8
+infotainment news sharing,Profile11,1,8
+infotainment news sharing,Profile12,1,8
+infotainment news sharing,Profile13,1,8
+infotainment news sharing,Profile14,1,8
+infotainment news sharing,Profile15,1,8
+infotainment news sharing,Profile16,1,8
+infotainment news sharing,Profile17,1,8
+infotainment news sharing,Profile18,1,8
+Junk Fees,percent_correct,0,100
+Junk Fees,fairness_average,1,7
+Junk Fees,reg_support,1,7
+Obedient twins,task 1 - attitude_change,-100,100
+Obedient twins,task 2 - S1,1,7
+Obedient twins,task 2 - S2,1,7
+Obedient twins,task 2 - S3,1,7
+Obedient twins,task 3 - S1,1,7
+Obedient twins,task 3 - S2,1,7
+Obedient twins,task 3 - S3,1,7
+Preferences for redistribution,Redistribution 1,1,5
+Preferences for redistribution,Redistribution 2,1,5
+Preferences for redistribution,Fairness,1,3
+Preferences for redistribution,Work vs Luck,1,3
+Preferences for redistribution,Father education,10,18
+Preferences for redistribution,Trust,1,3
+Privacy,PPV,1,7
+Promiscuous donors,rating_1_1,1,7
+Promiscuous donors,rating_2_1,1,7
+Promiscuous donors,rating_3_1,1,7
+Promiscuous donors,rating_4_1,1,7
+Promiscuous donors,rating_5_1,1,7
+Promiscuous donors,rating_6_1,1,7
+Promiscuous donors,rating_7_1,1,7
+Promiscuous donors,rating_8_1,1,7
+Promiscuous donors,rating_9_1,1,7
+Promiscuous donors,rating_10_1,1,7
+quantitative intuition,Q_indiv_mean,1,5
+quantitative intuition,I_indiv_mean,1,5
+quantitative intuition,Q_org_mean,1,5
+quantitative intuition,I_org_mean,1,5
+quantitative intuition,scenario_close_QI,0,1
+quantitative intuition,scenario_open_QI,0,1
+recommendation systems,usage_TikTok,1,5
+recommendation systems,usage_Netflix,1,5
+recommendation systems,algo_knowledge_TikTok,0,1
+recommendation systems,algo_knowledge_Netflix,0,1
+recommendation systems,strategization_type1_TikTok,0,1
+recommendation systems,strategization_type1_Netflix,0,1
+recommendation systems,strategization_type2_TikTok,0,1
+recommendation systems,strategization_type2_Netflix,0,1
+recommendation systems,pref_control_TikTok,0,6
+recommendation systems,pref_control_Netflix,0,6
+Story Beliefs,Achap1_val,1,5
+Story Beliefs,Achap1_aro,1,5
+Story Beliefs,Achap2_val,1,5
+Story Beliefs,Achap2_aro,1,5
+Story Beliefs,Bchap1_val,1,5
+Story Beliefs,Bchap1_aro,1,5
+Story Beliefs,Bchap2_val,1,5
+Story Beliefs,Bchap2_aro,1,5
+Targeting fairness,fair1,1,9

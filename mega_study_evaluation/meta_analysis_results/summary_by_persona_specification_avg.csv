@@ -1,0 +1,16 @@
+persona specification,correlation between the responses from humans vs. their twins,accuracy between humans vs. their twins,paired t-test t-stat,paired t-test p-value,variance test F-stat,variance test p-value,n_observations
+GPT5,0.2035,0.738,-0.963,0.0364,8.398,0.0356,163
+deepseek,0.2051,0.7438,-1.3861,0.0643,2.4712,0.0243,163
+demographics_only,0.1507,0.7464,-3.6444,0.064,6.5495,0.0177,163
+demographics_only_temperature_zero,0.1528,0.7485,-3.4071,0.0674,9.6955,0.0187,163
+empty_persona,0.0892,0.7338,-6.6691,0.0374,14.7683,0.0202,163
+empty_persona_temperature_zero,0.068,0.7364,-5.8375,0.0369,41.1569,0.0166,163
+full_persona_without_reasoning,0.2083,0.7491,-2.8973,0.1276,6.8872,0.0353,164
+gemini,0.2084,0.74,-4.4626,0.0441,3.8683,0.0665,163
+include_reasoning_temperature_zero,0.2324,0.7509,-3.9465,0.0435,4.9847,0.0403,163
+persona_summary,0.2051,0.7508,-3.4781,0.0691,5.0868,0.0186,163
+persona_summary_include_reasoning,0.1959,0.7453,-5.0152,0.0489,4.0805,0.0294,163
+persona_summary_include_reasoning_temperature_zero,0.1949,0.7464,-4.8138,0.0525,4.1203,0.032,163
+persona_summary_temperature_zero,0.1879,0.7487,-3.2474,0.0684,6.0633,0.0202,163
+temperature_zero,0.2326,0.7523,-1.9544,0.1034,5.9535,0.0398,163
+with_reasoning,0.2184,0.7477,-4.0699,0.0436,8.0787,0.0372,163

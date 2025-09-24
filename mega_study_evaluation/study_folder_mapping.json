@@ -1,0 +1,452 @@
+{
+  "_comments": {
+    "description": "Extended mapping for mega study evaluation scripts",
+    "path_variables": {
+      "{study_name}": "The study folder name (e.g., 'affective_priming')",
+      "{specification}": "The persona/reasoning specification (e.g., 'full_persona_without_reasoning_2025-06-18')"
+    },
+    "input_file_paths": {
+      "human_original": "Located in mega_study_data/{data_folder}/",
+      "twin_original": "Located in mega_study_data/{data_folder}/",
+      "human_generic": "Located in results/{study_name}/{specification}/",
+      "twin_generic": "Located in results/{study_name}/{specification}/"
+    }
+  },
+  "accuracy_nudges": {
+    "data_folder": "Accuracy nudges (complete)",
+    "notebooks": [],
+    "output_files": [],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/accuracy_nudges/test/Accuracy Nudge default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/accuracy_nudges/test/Accuracy Nudge default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/accuracy_nudges/full_persona_without_reasoning_2025-06-18/meta analysis.csv",
+      "individual_level": "results/accuracy_nudges/full_persona_without_reasoning_2025-06-18/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "accuracy nudges human data values anonymized.csv",
+      "twin_original": "accuracy nudges twins data values anonymized.csv",
+      "human_generic": "results/accuracy_nudges/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/accuracy_nudges/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "affective_priming": {
+    "data_folder": "Affective primes (complete)",
+    "notebooks": ["Affective Primes meta analysis.ipynb"],
+    "output_files": [
+      "Affective Primes default persona meta analysis.csv",
+      "Affective Primes default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/affective_priming/test/Affective Primes default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/affective_priming/test/Affective Primes default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/affective_priming/full_persona_without_reasoning_2025-06-18/meta analysis.csv",
+      "individual_level": "results/affective_priming/full_persona_without_reasoning_2025-06-18/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "affective primes human data values anonymized.csv",
+      "twin_original": "affective primes twins data values anonymized.csv",
+      "human_generic": "results/affective_priming/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/affective_priming/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "consumer_minimalism": {
+    "data_folder": "Consumer Minimalism (complete)",
+    "notebooks": ["Consumer Minimalism meta analysis.ipynb"],
+    "output_files": [
+      "Consumer Minimalism default persona meta analysis.csv",
+      "Consumer Minimalism default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/consumer_minimalism/test/Consumer Minimalism default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/consumer_minimalism/test/Consumer Minimalism default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/consumer_minimalism/full_persona_without_reasoning_2025-06-26/meta analysis.csv",
+      "individual_level": "results/consumer_minimalism/full_persona_without_reasoning_2025-06-26/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "consumer minimalism human data values anonymized.csv",
+      "twin_original": "consumer minimalism twins data values anonymized.csv",
+      "human_generic": "results/consumer_minimalism/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/consumer_minimalism/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "context_effects": {
+    "data_folder": "Context effects (complete)",
+    "notebooks": ["context effects meta analysis.ipynb"],
+    "output_files": [
+      "context effects default persona meta analysis individual level.csv",
+      "context effects default persona meta analysis.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/context_effects/test/context effects default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/context_effects/test/context effects default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/context_effects/full_persona_without_reasoning_2025-06-18/meta analysis.csv",
+      "individual_level": "results/context_effects/full_persona_without_reasoning_2025-06-18/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "context effects human data labels anonymized.csv",
+      "twin_original": "context effects twins data labels anonymized.csv",
+      "human_generic": "results/context_effects/context effects human data labels anonymized.csv",
+      "twin_generic": "results/context_effects/{specification}/consolidated_llm_labels.csv",
+      "note": "Uses 'labels' instead of 'values' in original files"
+    }
+  },
+  "default_eric": {
+    "data_folder": "Defaults (complete)",
+    "notebooks": ["Defaults meta analysis.ipynb"],
+    "output_files": [
+      "Defaults default persona meta analysis individual level.csv",
+      "Defaults default persona meta analysis.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/default_eric/test/Defaults default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/default_eric/test/Defaults default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/default_eric/full_persona_without_reasoning_2025-06-18/meta analysis.csv",
+      "individual_level": "results/default_eric/full_persona_without_reasoning_2025-06-18/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "defaults human data labels anonymized.csv",
+      "twin_original": "defaults twins data labels anonymized.csv",
+      "human_generic": "results/default_eric/defaults human data labels anonymized.csv",
+      "twin_generic": "results/default_eric/{specification}/consolidated_llm_labels.csv",
+      "note": "Uses 'labels' instead of 'values' in original files"
+    }
+  },
+  "digital_certification": {
+    "data_folder": "Digital Certifications for Luxury Consumption (complete)",
+    "notebooks": ["Digital Certifications for Luxury Consumption meta analysis.ipynb"],
+    "output_files": [
+      "Digital certificates for luxury consumption default persona meta analysis individual level.csv",
+      "Digital certificates for luxury consumption default persona meta analysis.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/digital_certification/test/Digital certificates for luxury consumption default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/digital_certification/test/Digital certificates for luxury consumption default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/digital_certification/full_persona_without_reasoning_2025-06-23/meta analysis.csv",
+      "individual_level": "results/digital_certification/full_persona_without_reasoning_2025-06-23/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "digital certificates for luxury consumption human data values anonymized.csv",
+      "twin_original": "digital certificates for luxury consumption twins data values anonymized.csv",
+      "human_generic": "results/digital_certification/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/digital_certification/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "hiring_algorithms": {
+    "data_folder": "Hiring algorithms (complete)",
+    "notebooks": ["hiring algorithms meta analysis.ipynb"],
+    "output_files": [
+      "hiring algorithms default persona meta analysis.csv",
+      "hiring algorithms default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/hiring_algorithms/test/hiring algorithms default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/hiring_algorithms/test/hiring algorithms default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/hiring_algorithms/full_persona_without_reasoning_2025-07-03/meta analysis.csv",
+      "individual_level": "results/hiring_algorithms/full_persona_without_reasoning_2025-07-03/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "hiring algorithms human data values anonymized.csv",
+      "twin_original": "hiring algorithms twins data values anonymized.csv",
+      "human_generic": "results/hiring_algorithms/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/hiring_algorithms/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "idea_evaluation": {
+    "data_folder": "Idea Evaluation (complete)",
+    "notebooks": ["Idea Evaluation meta analysis.ipynb"],
+    "output_files": [
+      "idea evaluation default persona meta analysis individual level.csv",
+      "idea evaluation default persona meta analysis.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/idea_evaluation/test/idea evaluation default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/idea_evaluation/test/idea evaluation default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/idea_evaluation/full_persona_without_reasoning_2025-07-03/meta analysis.csv",
+      "individual_level": "results/idea_evaluation/full_persona_without_reasoning_2025-07-03/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "idea evaluation human data values anonymized.csv",
+      "twin_original": "idea evaluation twins data values anonymized.csv",
+      "human_generic": "results/idea_evaluation/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/idea_evaluation/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "idea_generation": {
+    "data_folder": "Idea Generation (complete)",
+    "notebooks": ["Idea Generation meta analysis.ipynb"],
+    "output_files": [
+      "idea generation default persona meta analysis.csv",
+      "idea generation default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/idea_generation/test/idea generation default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/idea_generation/test/idea generation default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/idea_generation/full_persona_without_reasoning_2025-06-12/meta analysis.csv",
+      "individual_level": "results/idea_generation/full_persona_without_reasoning_2025-06-12/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "idea generation human data labels anonymized.csv",
+      "twin_original": "idea generation twins data labels anonymized.csv",
+      "human_generic": "results/idea_generation/idea generation human data labels anonymized.csv",
+      "twin_generic": "results/idea_generation/{specification}/consolidated_llm_labels.csv",
+      "additional_files": [
+        "idea generation human data creativity ratings.csv",
+        "idea generation twins data creativity ratings.csv",
+        "wave 1 scores.csv",
+        "wave 2 scores.csv",
+        "wave 3 scores.csv"
+      ],
+      "note": "Uses 'labels' instead of 'values'; requires additional creativity ratings and wave score files; EXCLUDED from test_all_evaluations.py because: (1) it requires downloading a 1.5GB Word2Vec model (word2vec-google-news-300) for computing creativity metrics (DAT_perf and SSPT), and (2) the creativity rating files are not available on Hugging Face or in the standard dataset distribution"
+    }
+  },
+  "infotainment": {
+    "data_folder": "infotainment news sharing (complete)",
+    "notebooks": [],
+    "output_files": [],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/infotainment/test/infotainment news sharing default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/infotainment/test/infotainment news sharing default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/infotainment/full_persona_without_reasoning_2025-06-20/meta analysis.csv",
+      "individual_level": "results/infotainment/full_persona_without_reasoning_2025-06-20/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "infotainment news sharing human data values anonymized.csv",
+      "twin_original": "infotainment news sharing twins data values anonymized.csv",
+      "human_generic": "results/infotainment/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/infotainment/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "junk_fees": {
+    "data_folder": "Junk Fees (complete)",
+    "notebooks": ["Junk Fees meta analysis.ipynb"],
+    "output_files": [
+      "Junk Fees human data values anonymized processed.csv",
+      "Junk Fees default persona meta analysis.csv",
+      "Junk Fees twins data values anonymized processed.csv",
+      "Junk Fees default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/junk_fees/test/Junk Fees default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/junk_fees/test/Junk Fees default persona meta analysis individual level.csv",
+      "human_processed": "mega_study_evaluation/junk_fees/test/Junk Fees human data values anonymized processed.csv",
+      "twin_processed": "mega_study_evaluation/junk_fees/test/Junk Fees twins data values anonymized processed.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/junk_fees/full_persona_without_reasoning_2025-07-04/meta analysis.csv",
+      "individual_level": "results/junk_fees/full_persona_without_reasoning_2025-07-04/meta analysis individual level.csv",
+      "human_processed": "results/junk_fees/full_persona_without_reasoning_2025-07-04/human data values anonymized processed.csv",
+      "twin_processed": "results/junk_fees/full_persona_without_reasoning_2025-07-04/twins data values anonymized processed.csv"
+    },
+    "input_files": {
+      "human_original": "junk fees human data values anonymized.csv",
+      "twin_original": "junk fees twins data values anonymized.csv",
+      "human_generic": "results/junk_fees/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/junk_fees/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "obedient_twins": {
+    "data_folder": "Obedient twins (complete)",
+    "notebooks": ["Obedient Twins meta analysis.ipynb"],
+    "output_files": [
+      "Obedient twins default persona meta analysis.csv",
+      "Obedient twins default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/obedient_twins/test/Obedient twins default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/obedient_twins/test/Obedient twins default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/obedient_twins/full_persona_without_reasoning_2025-06-26/meta analysis.csv",
+      "individual_level": "results/obedient_twins/full_persona_without_reasoning_2025-06-26/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "obedient twins final human data values anonymized.csv",
+      "twin_original": "obedient twins twins data values anonymized.csv",
+      "human_generic": "results/obedient_twins/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/obedient_twins/{specification}/consolidated_llm_values.csv",
+      "note": "Human file has 'final' in name"
+    }
+  },
+  "preference_redistribution": {
+    "data_folder": "Preferences for redistribution (complete)",
+    "notebooks": ["Preferences for redistribution meta analysis.ipynb"],
+    "output_files": [
+      "Preferences for redistribution default persona meta analysis.csv",
+      "Preferences for redistribution default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/preference_redistribution/test/Preferences for redistribution default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/preference_redistribution/test/Preferences for redistribution default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/preference_redistribution/full_persona_without_resoning_2025-07-06/meta analysis.csv",
+      "individual_level": "results/preference_redistribution/full_persona_without_resoning_2025-07-06/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "preferences for redistribution human data labels anonymized.csv",
+      "twin_original": "preferences for redistribution twins data labels anonymized.csv",
+      "human_generic": "results/preference_redistribution/preferences for redistribution human data labels anonymized.csv",
+      "twin_generic": "results/preference_redistribution/{specification}/consolidated_llm_labels.csv",
+      "note": "Uses 'labels' instead of 'values' in original files"
+    }
+  },
+  "privacy": {
+    "data_folder": "Privacy (complete)",
+    "notebooks": ["Privacy Preferences meta analysis.ipynb"],
+    "output_files": [
+      "Privacy default persona meta analysis.csv",
+      "Privacy default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/privacy/test/Privacy default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/privacy/test/Privacy default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/privacy/full_persona_without_reasoning_2025-06-18/meta analysis.csv",
+      "individual_level": "results/privacy/full_persona_without_reasoning_2025-06-18/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "privacy human data values anonymized.csv",
+      "twin_original": "privacy twins data values anonymized.csv",
+      "human_generic": "results/privacy/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/privacy/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "promiscuous_donors": {
+    "data_folder": "Promiscuous donors (complete)",
+    "notebooks": ["Promiscuous Donors meta analysis.ipynb"],
+    "output_files": [
+      "Promiscuous donors default persona meta analysis.csv",
+      "Promiscuous donors default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/promiscuous_donors/test/Promiscuous donors default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/promiscuous_donors/test/Promiscuous donors default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/promiscuous_donors/full_persona_without_reasoning_2025-07-04/meta analysis.csv",
+      "individual_level": "results/promiscuous_donors/full_persona_without_reasoning_2025-07-04/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "promiscuous donors human data values anonymized.csv",
+      "twin_original": "promiscuous donors twins data values anonymized.csv",
+      "human_generic": "results/promiscuous_donors/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/promiscuous_donors/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "quantitative_intuition": {
+    "data_folder": "Quantitative Intuition (complete)",
+    "notebooks": ["quantitative intution meta analysis.ipynb"],
+    "output_files": [
+      "quantitative intuition default persona meta analysis.csv",
+      "quantitative intuition default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/quantitative_intuition/test/quantitative intuition default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/quantitative_intuition/test/quantitative intuition default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/quantitative_intuition/full_persona_without_reasoning_2025-06-24/meta analysis.csv",
+      "individual_level": "results/quantitative_intuition/full_persona_without_reasoning_2025-06-24/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "quantitative intuition human data labels anonymized.csv",
+      "twin_original": "quantitative intuition twins data labels anonymized.csv",
+      "human_generic": "results/quantitative_intuition/quantitative intuition human data labels anonymized.csv",
+      "twin_generic": "results/quantitative_intuition/{specification}/consolidated_llm_labels.csv",
+      "note": "Uses 'labels' instead of 'values' in original files"
+    }
+  },
+  "recommendation_algorithms": {
+    "data_folder": "recommendation algorithms (complete)",
+    "notebooks": ["recommendation algorithms meta analysis.ipynb"],
+    "output_files": [
+      "recommendation systems default persona meta analysis.csv",
+      "recommendation systems default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/recommendation_algorithms/test/recommendation systems default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/recommendation_algorithms/test/recommendation systems default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/recommendation_algorithms/full_persona_without_reasoning_2025-07-22/meta analysis.csv",
+      "individual_level": "results/recommendation_algorithms/full_persona_without_reasoning_2025-07-22/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "recommendation algorithms human data values anonymized.csv",
+      "twin_original": "recommendation algorithms twins data values anonymized.csv",
+      "human_generic": "results/recommendation_algorithms/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/recommendation_algorithms/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "story_beliefs": {
+    "data_folder": "Story Beliefs (complete)",
+    "notebooks": ["Story Beliefs meta analysis.ipynb"],
+    "output_files": [
+      "Story Beliefs default persona meta analysis individual level.csv",
+      "Story Beliefs human data values anonymized processed.csv",
+      "Story Beliefs twins data values anonymized processed.csv",
+      "Story Beliefs default persona meta analysis.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/story_beliefs/test/Story Beliefs default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/story_beliefs/test/Story Beliefs default persona meta analysis individual level.csv",
+      "human_processed": "mega_study_evaluation/story_beliefs/test/Story Beliefs human data values anonymized processed.csv",
+      "twin_processed": "mega_study_evaluation/story_beliefs/test/Story Beliefs twins data values anonymized processed.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/story_beliefs/full_persona_without_reasoning_2025-06-20/meta analysis.csv",
+      "individual_level": "results/story_beliefs/full_persona_without_reasoning_2025-06-20/meta analysis individual level.csv",
+      "human_processed": "results/story_beliefs/full_persona_without_reasoning_2025-06-20/human data values anonymized processed.csv",
+      "twin_processed": "results/story_beliefs/full_persona_without_reasoning_2025-06-20/twins data values anonymized processed.csv"
+    },
+    "input_files": {
+      "human_original": "story beliefs human data values anonymized.csv",
+      "twin_original": "story beliefs twins data values anonymized.csv",
+      "human_generic": "results/story_beliefs/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/story_beliefs/{specification}/consolidated_llm_values.csv"
+    }
+  },
+  "targeting_fairness": {
+    "data_folder": "Targeting Fairness (complete)",
+    "notebooks": ["Targeting fairness meta analysis.ipynb"],
+    "output_files": [
+      "Targeting fairness default persona meta analysis.csv",
+      "Targeting fairness default persona meta analysis individual level.csv"
+    ],
+    "test_files_original": {
+      "meta_analysis": "mega_study_evaluation/targeting_fairness/test/Targeting fairness default persona meta analysis.csv",
+      "individual_level": "mega_study_evaluation/targeting_fairness/test/Targeting fairness default persona meta analysis individual level.csv"
+    },
+    "test_files_new": {
+      "meta_analysis": "results/targeting_fairness/full_persona_without_reasoning_2025-06-23/meta analysis.csv",
+      "individual_level": "results/targeting_fairness/full_persona_without_reasoning_2025-06-23/meta analysis individual level.csv"
+    },
+    "input_files": {
+      "human_original": "targeting fairness human data values anonymized.csv",
+      "twin_original": "targeting fairness twins data values anonymized.csv",
+      "human_generic": "results/targeting_fairness/{specification}/consolidated_original_answers_values.csv",
+      "twin_generic": "results/targeting_fairness/{specification}/consolidated_llm_values.csv"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+metric,best_specification,interpretation,GPT5_value,deepseek_value,demographics_only_value,demographics_only_temperature_zero_value,empty_persona_value,empty_persona_temperature_zero_value,full_persona_without_reasoning_value,gemini_value,include_reasoning_temperature_zero_value,persona_summary_value,persona_summary_include_reasoning_value,persona_summary_include_reasoning_temperature_zero_value,persona_summary_temperature_zero_value,temperature_zero_value,with_reasoning_value
+correlation between the responses from humans vs. their twins,temperature_zero,highest value,0.2035,0.2051,0.1507,0.1528,0.0892,0.068,0.2083,0.2084,0.2324,0.2051,0.1959,0.1949,0.1879,0.2326,0.2184
+accuracy between humans vs. their twins,temperature_zero,highest value,0.738,0.7438,0.7464,0.7485,0.7338,0.7364,0.7491,0.74,0.7509,0.7508,0.7453,0.7464,0.7487,0.7523,0.7477
+paired t-test t-stat,empty_persona,highest absolute value,-0.963,-1.3861,-3.6444,-3.4071,-6.6691,-5.8375,-2.8973,-4.4626,-3.9465,-3.4781,-5.0152,-4.8138,-3.2474,-1.9544,-4.0699
+paired t-test p-value,GPT5,lowest value,0.0364,0.0643,0.064,0.0674,0.0374,0.0369,0.1276,0.0441,0.0435,0.0691,0.0489,0.0525,0.0684,0.1034,0.0436
+variance test F-stat,empty_persona_temperature_zero,highest absolute value,8.398,2.4712,6.5495,9.6955,14.7683,41.1569,6.8872,3.8683,4.9847,5.0868,4.0805,4.1203,6.0633,5.9535,8.0787
+variance test p-value,empty_persona_temperature_zero,lowest value,0.0356,0.0243,0.0177,0.0187,0.0202,0.0166,0.0353,0.0665,0.0403,0.0186,0.0294,0.032,0.0202,0.0398,0.0372

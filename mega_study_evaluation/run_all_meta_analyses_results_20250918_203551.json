@@ -1,0 +1,1826 @@
+[
+  {
+    "study": "accuracy_nudges",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "full_persona_without_reasoning_2025-06-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "accuracy_nudges",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "full_persona_without_reasoning_2025-06-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "affective_priming",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "empty_persona_2025-07-28",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "full_persona_without_reasoning_2025-06-26",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "consumer_minimalism",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "context_effects",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "full_persona_without_reasoning_2025-06-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "context_effects",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "default_eric",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "full_persona_without_reasoning_2025-06-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "default_eric",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "full_persona_without_reasoning_2025-06-23",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "digital_certification",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "empty_persona_2025-07-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "full_persona_without_reasoning_2025-07-03",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "hiring_algorithms",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "full_persona_without_reasoning_2025-07-03",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_evaluation",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "empty_persona_2025-07-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "full_persona_without_reasoning_2025-06-12",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "idea_generation",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "infotainment",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "full_persona_without_reasoning_2025-06-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "infotainment",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "full_persona_without_reasoning_2025-07-04",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "junk_fees",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "full_persona_without_reasoning_2025-06-26",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "obedient_twins",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "empty_persona_2025-07-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "full_persona_without_resoning_2025-07-06",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "preference_redistribution",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "privacy",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "full_persona_without_reasoning_2025-06-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "privacy",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "full_persona_without_reasoning_2025-07-04",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "promiscuous_donors",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "full_persona_without_reasoning_2025-06-24",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "quantitative_intuition",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "full_persona_without_reasoning_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "recommendation_algorithms",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "full_persona_without_reasoning_2025-06-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "story_beliefs",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "GPT5_2025-08-11",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "centaur_empty_persona_2025-09-18",
+    "status": "success",
+    "message": "Meta analysis created successfully"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "deepseek_2025-08-25",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "demographics_only_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "demographics_only_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "empty_persona_2025-07-22",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "empty_persona_temperature_zero_2025-08-18",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "full_persona_without_reasoning_2025-06-23",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "gemini_2025-08-27",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "include_reasoning_temperature_zero_2025-08-20",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "persona_summary_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "persona_summary_include_reasoning_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "persona_summary_include_reasoning_temperature_zero_2025-08-21",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "persona_summary_temperature_zero_2025-08-17",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "temperature_zero_2025-07-31",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  },
+  {
+    "study": "targeting_fairness",
+    "specification": "with_reasoning_2025-08-01",
+    "status": "skipped",
+    "message": "Meta analysis already exists"
+  }
+]

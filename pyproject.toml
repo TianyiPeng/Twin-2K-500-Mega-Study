@@ -1,0 +1,123 @@
+[tool.poetry]
+name = "digital-twin-simulation"
+version = "0.1.0"
+description = "Digital Twin Simulation"
+authors = ["Tianyi Peng <tianyipeng95@gmail.com>", "George (Zhida) Gui <zg2467@gsb.columbia.edu>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11.7"
+datasets = "^2.18.0"
+tqdm = "^4.66.0"
+huggingface-hub = "^0.21.0"
+python-dotenv = "^1.1.0"
+google = "^3.0.0"
+google-generativeai = "^0.8.5"
+openai = "^1.78.1"
+tenacity = "^8.0.0"
+ipython = "^9.2.0"
+sacred = "^0.8.7"
+setuptools = "^80.9.0"
+snakemake = "^9.5.1"
+beautifulsoup4 = "^4.13.4"
+scikit-learn = "^1.3.0"
+xgboost = "^2.0.0"
+scipy = "^1.11.0"
+matplotlib = "^3.7.0"
+openpyxl = "^3.1.0"
+statsmodels = "^0.14.0"
+pyyaml = "^6.0"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+json5 = "^0.12.0"
+jinja2 = "^3.1.6"
+gensim      = "^4.3.3"
+ruff = "^0.12.5"
+black = {extras = ["jupyter"], version = "^25.1.0"}
+mypy = "^1.17.0"
+notebook = "^7.4.4"
+types-pyyaml = "^6.0.12.20250516"
+ipykernel = "^6.30.0"
+ruamel-yaml = "^0.18.14"
+llm-batch-helper = "0.2.0"
+causaltensor = "^0.1.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.1"
+black = "^25.1.0"
+mypy = "^1.16.1"
+pytest = "^8.4.1"
+ipython = "^9.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+# VSCode uses pyright instead of mypy out of the box and this disables it
+typeCheckingMode = "off"
+
+[tool.ruff]
+target-version = "py311"
+extend-include = ["*.ipynb"]
+exclude = [
+  ".git",
+  "__pycache__",
+  "archive",
+  ".ipython",
+  "Snakefile",
+]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "D", # pydocstyle
+  "E", # Pep8
+  "W", # Pep8
+  "F", # Flake8
+  "RUF", # Ruff-specific Rules
+  "N", # Pep8-Naming
+  "C9", # McCabe Complexity
+  "I", # Isort
+  "B", # Bugbear
+  "T10", # Debugger
+  "TCH", # Typecheck Imports
+]
+ignore = ["E402", "E501"]
+unfixable = ["ALL"]
+fixable = [
+  "RUF", # Ruff-specific Rules
+  "I", # Isort
+  "TCH", # Typecheck Imports
+  "D", #pydocstyle
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.mypy]
+python_version = 3.11
+ignore_missing_imports = true
+no_implicit_optional = true
+strict_equality = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unreachable = true
+no_warn_no_return = true
+allow_redefinition = true
+disable_error_code = "top-level-await"
+check_untyped_defs = true        # Warn if you use functions without type annotations
+disallow_untyped_defs = true     # Force all functions to have type hints
+disallow_incomplete_defs = true  # Force type annotations on all args (even with default values)
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+skip-string-normalization = false

@@ -1,0 +1,1013 @@
+{
+  "metadata": {
+    "description": "Manually extracted variable mappings for all mega study evaluations",
+    "extraction_method": "Manual review of each mega_study_evaluation.py file",
+    "purpose": "Complete and accurate mapping of raw variables to outputs",
+    "total_studies": 19
+  },
+  "study_details": {
+    "accuracy_nudges": {
+      "study_name": "accuracy_nudges",
+      "description": "Study on accuracy nudges for fake vs real news",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Fake1_3",
+          "Fake2_3",
+          "Fake3_3",
+          "Fake4_3",
+          "Fake5_3",
+          "Fake6_3",
+          "Fake7_3",
+          "Fake8_3",
+          "Real1_3",
+          "Real2_3",
+          "Real3_3",
+          "Real4_3",
+          "Real5_3",
+          "Real6_3",
+          "Real7_3",
+          "Real8_3"
+        ],
+        "source": "Direct ratings of fake and real news items on 1-6 scale"
+      },
+      "transformations": {
+        "none": "Variables used directly without transformation"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Fake1_3",
+          "Fake2_3",
+          "Fake3_3",
+          "Fake4_3",
+          "Fake5_3",
+          "Fake6_3",
+          "Fake7_3",
+          "Fake8_3",
+          "Real1_3",
+          "Real2_3",
+          "Real3_3",
+          "Real4_3",
+          "Real5_3",
+          "Real6_3",
+          "Real7_3",
+          "Real8_3"
+        ],
+        "total_count": 16,
+        "scale": "1-6 rating scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Each DV variable correlation between human and twin",
+        "individual_level": "Long format with all 16 ratings per participant"
+      }
+    },
+    "affective_priming": {
+      "study_name": "affective_priming",
+      "description": "Study on affective priming effects",
+      "raw_input_variables": {
+        "survey_questions": [
+          "gratitude",
+          "gratitude_manipulation_check",
+          "lack_of_control",
+          "lack_of_control_manipulation_check"
+        ],
+        "source": "Computed from multiple item scales"
+      },
+      "transformations": {
+        "gratitude": "Mean of gratitude items",
+        "lack_of_control": "Mean of control items"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "gratitude",
+          "gratitude_manipulation_check",
+          "lack_of_control",
+          "lack_of_control_manipulation_check"
+        ],
+        "total_count": 4,
+        "scale": "1-5 scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation and effect sizes for each DV",
+        "individual_level": "Long format with 4 variables per participant"
+      }
+    },
+    "consumer_minimalism": {
+      "study_name": "consumer_minimalism",
+      "description": "Study on consumer minimalism preferences",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q33",
+          "Q35",
+          "Q38",
+          "Q26"
+        ],
+        "source": "Direct survey questions"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Q33",
+          "Q35",
+          "Q38",
+          "Q26"
+        ],
+        "total_count": 4,
+        "scale": "1-7 scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each question",
+        "individual_level": "Long format with 4 questions per participant"
+      }
+    },
+    "context_effects": {
+      "study_name": "context_effects",
+      "description": "Study on context effects in choice",
+      "raw_input_variables": {
+        "survey_questions": [
+          "choice_target_binary",
+          "choice_target_attraction",
+          "choice_target_compromise"
+        ],
+        "source": "Computed from choice data"
+      },
+      "transformations": {
+        "choice_target_binary": "Binary choice indicator",
+        "choice_target_attraction": "Attraction effect measure",
+        "choice_target_compromise": "Compromise effect measure"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "choice_target_binary",
+          "choice_target_attraction",
+          "choice_target_compromise"
+        ],
+        "total_count": 3,
+        "scale": "Binary (0/1) for choice"
+      },
+      "output_mapping": {
+        "meta_analysis": "Effect sizes for each context effect",
+        "individual_level": "Long format with 3 choice measures"
+      }
+    },
+    "default_eric": {
+      "study_name": "default_eric",
+      "description": "Study on default effects",
+      "raw_input_variables": {
+        "survey_questions": [
+          "target_behavior_green",
+          "target_behavior_organ"
+        ],
+        "source": "Target behavior measures"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "target_behavior_green",
+          "target_behavior_organ"
+        ],
+        "total_count": 2,
+        "scale": "Binary choice"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each behavior",
+        "individual_level": "Long format with 2 behaviors"
+      }
+    },
+    "digital_certification": {
+      "study_name": "digital_certification",
+      "description": "Study on digital certification willingness to pay",
+      "raw_input_variables": {
+        "survey_questions": [
+          "DV1",
+          "WTP"
+        ],
+        "source": "Willingness to pay measures"
+      },
+      "transformations": {
+        "log_WTP": "Log transformation of WTP values"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "DV1",
+          "log_WTP"
+        ],
+        "total_count": 2,
+        "scale": "DV1: binary, log_WTP: continuous"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for certification choice and WTP",
+        "individual_level": "Long format with 2 measures"
+      }
+    },
+    "hiring_algorithms": {
+      "study_name": "hiring_algorithms",
+      "description": "Study on hiring algorithm preferences",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q6",
+          "Q8",
+          "Q9",
+          "Q10",
+          "Q13",
+          "Q14",
+          "Q15",
+          "Q16",
+          "Q22_1",
+          "Q22_2",
+          "Q22_3",
+          "Q22_4",
+          "Q22_5",
+          "Q22_6",
+          "Q22_7",
+          "Q22_8",
+          "Q24_1",
+          "Q24_2",
+          "Q24_3",
+          "Q24_4",
+          "Q24_5",
+          "Q24_6",
+          "Q24_7",
+          "Q24_8",
+          "Q25_1",
+          "Q25_2",
+          "Q25_3",
+          "Q25_4",
+          "Q25_5",
+          "Q25_6",
+          "Q25_7",
+          "Q25_8",
+          "Q26_1",
+          "Q26_2",
+          "Q26_3",
+          "Q26_4",
+          "Q26_5",
+          "Q26_6",
+          "Q26_7",
+          "Q26_8",
+          "Q27_1",
+          "Q27_2",
+          "Q27_3",
+          "Q27_4",
+          "Q27_5",
+          "Q27_6",
+          "Q27_7",
+          "Q27_8",
+          "Q28_1",
+          "Q28_2",
+          "Q28_3",
+          "Q28_4",
+          "Q28_5",
+          "Q28_6",
+          "Q28_7",
+          "Q28_8",
+          "Q29_1",
+          "Q29_2",
+          "Q29_3",
+          "Q29_4",
+          "Q29_5",
+          "Q29_6",
+          "Q29_7",
+          "Q29_8",
+          "Q30_1",
+          "Q30_2",
+          "Q30_3",
+          "Q30_4",
+          "Q30_5",
+          "Q30_6",
+          "Q30_7",
+          "Q30_8"
+        ],
+        "condition_flags": [
+          "FL_7_DO_AlgorithmicHiring",
+          "FL_7_DO_HiringTeam"
+        ],
+        "source": "Survey questions and experimental conditions"
+      },
+      "transformations": {
+        "Q9": "Recoded: 3\u21921, 4\u21922, 2\u21923, 1\u21924",
+        "Q14": "Recoded: 1\u21921, 3\u21922, 4\u21923, 2\u21924",
+        "job_items": "Created job{1-4}_item{1-8} from Q22-Q30 based on condition"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Q6",
+          "Q8",
+          "Q9",
+          "Q10",
+          "Q13",
+          "Q14",
+          "Q15",
+          "Q16",
+          "job1_item1",
+          "job1_item2",
+          "job1_item3",
+          "job1_item4",
+          "job1_item5",
+          "job1_item6",
+          "job1_item7",
+          "job1_item8",
+          "job2_item1",
+          "job2_item2",
+          "job2_item3",
+          "job2_item4",
+          "job2_item5",
+          "job2_item6",
+          "job2_item7",
+          "job2_item8",
+          "job3_item1",
+          "job3_item2",
+          "job3_item3",
+          "job3_item4",
+          "job3_item5",
+          "job3_item6",
+          "job3_item7",
+          "job3_item8",
+          "job4_item1",
+          "job4_item2",
+          "job4_item3",
+          "job4_item4",
+          "job4_item5",
+          "job4_item6",
+          "job4_item7",
+          "job4_item8"
+        ],
+        "total_count": 40,
+        "scale": "Various scales (4-point and 5-point)"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlations for all 40 variables",
+        "individual_level": "Long format with all variables"
+      }
+    },
+    "idea_evaluation": {
+      "study_name": "idea_evaluation",
+      "description": "Study on idea evaluation",
+      "raw_input_variables": {
+        "survey_questions": [
+          "rating1",
+          "rating2",
+          "rating3",
+          "rating4",
+          "rating5",
+          "rating6",
+          "rating7",
+          "rating8",
+          "rating9",
+          "rating10",
+          "rating11",
+          "rating12",
+          "rating13",
+          "rating14",
+          "rating15",
+          "rating16",
+          "rating17",
+          "rating18",
+          "rating19",
+          "rating20"
+        ],
+        "source": "Ratings of 20 different ideas"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "rating1",
+          "rating2",
+          "rating3",
+          "rating4",
+          "rating5",
+          "rating6",
+          "rating7",
+          "rating8",
+          "rating9",
+          "rating10",
+          "rating11",
+          "rating12",
+          "rating13",
+          "rating14",
+          "rating15",
+          "rating16",
+          "rating17",
+          "rating18",
+          "rating19",
+          "rating20"
+        ],
+        "total_count": 20,
+        "scale": "1-10 rating scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each idea rating",
+        "individual_level": "Long format with 20 ratings"
+      }
+    },
+    "idea_generation": {
+      "study_name": "idea_generation",
+      "description": "Study on creative idea generation",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q74_1 to Q74_10",
+          "SSPT word responses",
+          "creativity_rating_byhuman (if available)"
+        ],
+        "source": "DAT task responses (Q74), SSPT task responses, and human creativity ratings"
+      },
+      "transformations": {
+        "DAT_perf": "Mean cosine distance between word embeddings from Q74 responses",
+        "SSPT": "Circuitousness measure from SSPT word path task",
+        "creativity_rating_byhuman": "Direct human creativity rating (1-5 scale)"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "DAT_perf",
+          "SSPT",
+          "creativity_rating_byhuman"
+        ],
+        "total_count": 3,
+        "scale": "DAT_perf/SSPT: performance scores, creativity_rating: 1-5",
+        "note": "creativity_rating_byhuman included for meta-analysis but not benchmarking"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for creativity measures",
+        "individual_level": "Long format with 2-3 measures depending on data availability"
+      }
+    },
+    "infotainment": {
+      "study_name": "infotainment",
+      "description": "Study on infotainment preferences",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Profile1",
+          "Profile2",
+          "Profile3",
+          "Profile4",
+          "Profile5",
+          "Profile6",
+          "Profile7",
+          "Profile8",
+          "Profile9",
+          "Profile10",
+          "Profile11",
+          "Profile12",
+          "Profile13",
+          "Profile14",
+          "Profile15",
+          "Profile16",
+          "Profile17",
+          "Profile18"
+        ],
+        "source": "Ratings of 18 profiles"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Profile1",
+          "Profile2",
+          "Profile3",
+          "Profile4",
+          "Profile5",
+          "Profile6",
+          "Profile7",
+          "Profile8",
+          "Profile9",
+          "Profile10",
+          "Profile11",
+          "Profile12",
+          "Profile13",
+          "Profile14",
+          "Profile15",
+          "Profile16",
+          "Profile17",
+          "Profile18"
+        ],
+        "total_count": 18,
+        "scale": "1-7 rating scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each profile",
+        "individual_level": "Long format with 18 profiles"
+      }
+    },
+    "junk_fees": {
+      "study_name": "junk_fees",
+      "description": "Study on junk fees regulation support",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Hotel.MCQ",
+          "Car.MCQ",
+          "Ticket.MCQ",
+          "Food.MCQ",
+          "Apart.MCQ",
+          "Health.MCQ",
+          "CC.MCQ",
+          "Hotel.Fair",
+          "Car.Fair",
+          "Ticket.Fair",
+          "Food.Fair",
+          "Apart.Fair",
+          "Health.Fair",
+          "CC.Fair",
+          "Regulation",
+          "Support.Reg"
+        ],
+        "source": "MCQ questions for 7 categories (6 used), fairness ratings, and regulation support"
+      },
+      "transformations": {
+        "percent_correct": "Percentage of correct MCQ answers (6 categories, excluding CC)",
+        "fairness_average": "Mean of 6 fairness ratings (excluding CC)",
+        "reg_support": "Mean of Regulation and Support.Reg"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "percent_correct",
+          "fairness_average",
+          "reg_support"
+        ],
+        "total_count": 3,
+        "scale": "percent_correct: 0-100%, others: 1-7"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for 3 aggregate measures",
+        "individual_level": "Long format with 3 measures"
+      }
+    },
+    "obedient_twins": {
+      "study_name": "obedient_twins",
+      "description": "Study on obedience and conformity",
+      "raw_input_variables": {
+        "survey_questions": [
+          "task 1 - attitude_change",
+          "task 2 - S1",
+          "task 2 - S2",
+          "task 2 - S3",
+          "task 3 - S1",
+          "task 3 - S2",
+          "task 3 - S3"
+        ],
+        "source": "Three experimental tasks"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "task 1 - attitude_change",
+          "task 2 - S1",
+          "task 2 - S2",
+          "task 2 - S3",
+          "task 3 - S1",
+          "task 3 - S2",
+          "task 3 - S3"
+        ],
+        "total_count": 7,
+        "scale": "Various scales per task"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each task measure",
+        "individual_level": "Long format with 7 measures"
+      }
+    },
+    "preference_redistribution": {
+      "study_name": "preference_redistribution",
+      "description": "Study on redistribution preferences",
+      "raw_input_variables": {
+        "survey_questions": [
+          "GOVT_RESPONSIBILITY",
+          "HLTHTAX",
+          "FAIR",
+          "GETAHEAD",
+          "FAEDUC",
+          "TRUST_GSS"
+        ],
+        "source": "GSS-based redistribution preference questions"
+      },
+      "transformations": {
+        "GOVT_RESPONSIBILITY": "Mapped to 'Redistribution 1' (1-5 scale)",
+        "HLTHTAX": "Mapped to 'Redistribution 2' (1-5 scale)",
+        "FAIR": "Mapped to 'Fairness' (1-3 scale)",
+        "GETAHEAD": "Mapped to 'Work vs Luck' (1-3 scale)",
+        "FAEDUC": "Mapped to 'Father education' (10-18 scale)",
+        "TRUST_GSS": "Mapped to 'Trust' (1-3 scale)"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Redistribution 1",
+          "Redistribution 2",
+          "Fairness",
+          "Work vs Luck",
+          "Father education",
+          "Trust"
+        ],
+        "total_count": 6,
+        "scale": "Varies: 1-5 for redistribution, 1-3 for fairness/work/trust, 10-18 for education"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each preference measure",
+        "individual_level": "Long format with 6 measures"
+      }
+    },
+    "privacy": {
+      "study_name": "privacy",
+      "description": "Study on privacy preferences",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q2_1",
+          "Q11_1",
+          "Q138_1",
+          "Q140_1",
+          "Q142_1"
+        ],
+        "source": "Privacy preference questions"
+      },
+      "transformations": {
+        "PPV": "Privacy Preference Value - composite measure from items"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "PPV"
+        ],
+        "total_count": 1,
+        "scale": "Composite scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for privacy preference",
+        "individual_level": "Long format with PPV"
+      }
+    },
+    "promiscuous_donors": {
+      "study_name": "promiscuous_donors",
+      "description": "Study on donation behavior",
+      "raw_input_variables": {
+        "survey_questions": [
+          "rating_1_1",
+          "rating_2_1",
+          "rating_3_1",
+          "rating_4_1",
+          "rating_5_1",
+          "rating_6_1",
+          "rating_7_1",
+          "rating_8_1",
+          "rating_9_1",
+          "rating_10_1",
+          "Q315"
+        ],
+        "source": "Charity rating questions"
+      },
+      "transformations": {
+        "none": "Variables used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "rating_1_1",
+          "rating_2_1",
+          "rating_3_1",
+          "rating_4_1",
+          "rating_5_1",
+          "rating_6_1",
+          "rating_7_1",
+          "rating_8_1",
+          "rating_9_1",
+          "rating_10_1"
+        ],
+        "total_count": 10,
+        "scale": "1-7 rating scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for each charity rating",
+        "individual_level": "Long format with 10 ratings"
+      }
+    },
+    "quantitative_intuition": {
+      "study_name": "quantitative_intuition",
+      "description": "Study on quantitative intuition",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q20_9",
+          "Q21_10",
+          "Q32",
+          "Q33",
+          "Q34",
+          "scenario_close_items",
+          "scenario_open_items"
+        ],
+        "source": "Quantitative intuition questions"
+      },
+      "transformations": {
+        "Q_indiv_mean": "Mean of individual Q items",
+        "I_indiv_mean": "Mean of individual I items",
+        "Q_org_mean": "Mean of organization Q items",
+        "I_org_mean": "Mean of organization I items",
+        "scenario_close_QI": "Close scenario QI score",
+        "scenario_open_QI": "Open scenario QI score"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Q_indiv_mean",
+          "I_indiv_mean",
+          "Q_org_mean",
+          "I_org_mean",
+          "scenario_close_QI",
+          "scenario_open_QI"
+        ],
+        "total_count": 6,
+        "scale": "Composite scores"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for 6 QI measures",
+        "individual_level": "Long format with 6 measures"
+      }
+    },
+    "recommendation_algorithms": {
+      "study_name": "recommendation_algorithms",
+      "description": "Study on algorithm awareness and control",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Q13",
+          "Q20_2",
+          "Q20_6",
+          "Q20_7",
+          "usage_items",
+          "knowledge_items",
+          "strategization_items",
+          "control_items"
+        ],
+        "source": "Algorithm interaction questions"
+      },
+      "transformations": {
+        "usage_TikTok": "TikTok usage measure",
+        "usage_Netflix": "Netflix usage measure",
+        "algo_knowledge_TikTok": "TikTok algorithm knowledge",
+        "algo_knowledge_Netflix": "Netflix algorithm knowledge",
+        "strategization_type1_TikTok": "TikTok strategy type 1",
+        "strategization_type1_Netflix": "Netflix strategy type 1",
+        "strategization_type2_TikTok": "TikTok strategy type 2",
+        "strategization_type2_Netflix": "Netflix strategy type 2",
+        "pref_control_TikTok": "TikTok control preference",
+        "pref_control_Netflix": "Netflix control preference"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "usage_TikTok",
+          "usage_Netflix",
+          "algo_knowledge_TikTok",
+          "algo_knowledge_Netflix",
+          "strategization_type1_TikTok",
+          "strategization_type1_Netflix",
+          "strategization_type2_TikTok",
+          "strategization_type2_Netflix",
+          "pref_control_TikTok",
+          "pref_control_Netflix"
+        ],
+        "total_count": 10,
+        "scale": "Various scales"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for 10 algorithm measures",
+        "individual_level": "Long format with 10 measures"
+      }
+    },
+    "story_beliefs": {
+      "study_name": "story_beliefs",
+      "description": "Study on story beliefs and emotions",
+      "raw_input_variables": {
+        "survey_questions": [
+          "Achap1_val_1",
+          "Achap1_val_2",
+          "Achap1_val_3",
+          "Achap1_val_4",
+          "Achap1_val_5",
+          "Achap1_aro_1",
+          "Achap1_aro_2",
+          "Achap1_aro_3",
+          "Achap1_aro_4",
+          "Achap1_aro_5",
+          "Achap2_val_1",
+          "Achap2_val_2",
+          "Achap2_val_3",
+          "Achap2_val_4",
+          "Achap2_val_5",
+          "Achap2_aro_1",
+          "Achap2_aro_2",
+          "Achap2_aro_3",
+          "Achap2_aro_4",
+          "Achap2_aro_5",
+          "Bchap1_val_1",
+          "Bchap1_val_2",
+          "Bchap1_val_3",
+          "Bchap1_val_4",
+          "Bchap1_val_5",
+          "Bchap1_aro_1",
+          "Bchap1_aro_2",
+          "Bchap1_aro_3",
+          "Bchap1_aro_4",
+          "Bchap1_aro_5",
+          "Bchap2_val_1",
+          "Bchap2_val_2",
+          "Bchap2_val_3",
+          "Bchap2_val_4",
+          "Bchap2_val_5",
+          "Bchap2_aro_1",
+          "Bchap2_aro_2",
+          "Bchap2_aro_3",
+          "Bchap2_aro_4",
+          "Bchap2_aro_5"
+        ],
+        "source": "Emotion ratings for story chapters"
+      },
+      "transformations": {
+        "Achap1_val": "Weighted average of Achap1_val_1 to _5",
+        "Achap1_aro": "Weighted average of Achap1_aro_1 to _5",
+        "Achap2_val": "Weighted average of Achap2_val_1 to _5",
+        "Achap2_aro": "Weighted average of Achap2_aro_1 to _5",
+        "Bchap1_val": "Weighted average of Bchap1_val_1 to _5",
+        "Bchap1_aro": "Weighted average of Bchap1_aro_1 to _5",
+        "Bchap2_val": "Weighted average of Bchap2_val_1 to _5",
+        "Bchap2_aro": "Weighted average of Bchap2_aro_1 to _5"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "Achap1_val",
+          "Achap1_aro",
+          "Achap2_val",
+          "Achap2_aro",
+          "Bchap1_val",
+          "Bchap1_aro",
+          "Bchap2_val",
+          "Bchap2_aro"
+        ],
+        "total_count": 8,
+        "scale": "1-5 weighted average"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for 8 computed measures",
+        "individual_level": "Long format with 8 measures"
+      }
+    },
+    "targeting_fairness": {
+      "study_name": "targeting_fairness",
+      "description": "Study on fairness in targeting",
+      "raw_input_variables": {
+        "survey_questions": [
+          "fair1"
+        ],
+        "source": "Fairness rating question"
+      },
+      "transformations": {
+        "none": "Variable used directly"
+      },
+      "analysis_variables": {
+        "dv_list": [
+          "fair1"
+        ],
+        "total_count": 1,
+        "scale": "1-7 fairness scale"
+      },
+      "output_mapping": {
+        "meta_analysis": "Correlation for fairness measure",
+        "individual_level": "Long format with fairness rating"
+      }
+    }
+  },
+  "summary_statistics": {
+    "total_studies": 19,
+    "total_raw_variables": 245,
+    "total_dv_variables": 164,
+    "studies_with_transformations": [
+      "affective_priming",
+      "context_effects",
+      "digital_certification",
+      "hiring_algorithms",
+      "idea_generation",
+      "junk_fees",
+      "preference_redistribution",
+      "privacy",
+      "quantitative_intuition",
+      "recommendation_algorithms",
+      "story_beliefs"
+    ],
+    "studies_with_recoding": [
+      "hiring_algorithms",
+      "preference_redistribution"
+    ],
+    "variable_counts_by_study": {
+      "accuracy_nudges": {
+        "raw": 16,
+        "dv": 16
+      },
+      "affective_priming": {
+        "raw": 4,
+        "dv": 4
+      },
+      "consumer_minimalism": {
+        "raw": 4,
+        "dv": 4
+      },
+      "context_effects": {
+        "raw": 3,
+        "dv": 3
+      },
+      "default_eric": {
+        "raw": 2,
+        "dv": 2
+      },
+      "digital_certification": {
+        "raw": 2,
+        "dv": 2
+      },
+      "hiring_algorithms": {
+        "raw": 72,
+        "dv": 40
+      },
+      "idea_evaluation": {
+        "raw": 20,
+        "dv": 20
+      },
+      "idea_generation": {
+        "raw": 3,
+        "dv": 3
+      },
+      "infotainment": {
+        "raw": 18,
+        "dv": 18
+      },
+      "junk_fees": {
+        "raw": 16,
+        "dv": 3
+      },
+      "obedient_twins": {
+        "raw": 7,
+        "dv": 7
+      },
+      "preference_redistribution": {
+        "raw": 6,
+        "dv": 6
+      },
+      "privacy": {
+        "raw": 5,
+        "dv": 1
+      },
+      "promiscuous_donors": {
+        "raw": 11,
+        "dv": 10
+      },
+      "quantitative_intuition": {
+        "raw": 7,
+        "dv": 6
+      },
+      "recommendation_algorithms": {
+        "raw": 8,
+        "dv": 10
+      },
+      "story_beliefs": {
+        "raw": 40,
+        "dv": 8
+      },
+      "targeting_fairness": {
+        "raw": 1,
+        "dv": 1
+      }
+    },
+    "scale_types": [
+      "Performance scores",
+      "Various scales per task",
+      "percent_correct: 0-100%, others: 1-7",
+      "1-10 scale for most",
+      "Various scales (4-point and 5-point)",
+      "1-5 weighted average",
+      "Binary (0/1) for choice",
+      "Composite scale",
+      "1-10 rating scale",
+      "Composite scores",
+      "1-7 scale",
+      "Various scales",
+      "Binary choice",
+      "1-5 scale",
+      "1-7 rating scale",
+      "1-6 rating scale",
+      "DV1: binary, log_WTP: continuous",
+      "1-7 fairness scale"
+    ]
+  },
+  "data_flow_pattern": {
+    "standard_pipeline": [
+      "1. Load human and twin CSV files",
+      "2. Extract raw survey variables",
+      "3. Apply transformations (if any)",
+      "4. Create DV variables for analysis",
+      "5. Calculate correlations and statistics",
+      "6. Output to meta_analysis.csv and individual_level.csv"
+    ],
+    "common_transformations": [
+      "Value recoding (e.g., hiring_algorithms Q9/Q14)",
+      "Weighted averaging (e.g., story_beliefs emotions)",
+      "Composite scores (e.g., privacy PPV)",
+      "Log transformations (e.g., digital_certification WTP)"
+    ]
+  }
+}

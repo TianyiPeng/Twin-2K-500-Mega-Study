@@ -1,0 +1,8 @@
+specification_type,correlation_mean,current_accuracy_mean,cohens_d_mean,std_ratio_mean,total_observations
+calibrated_ours,0.3984,0.7518,0.4051,0.724,83
+original_ours,0.2335,0.7352,0.4999,0.6692,83
+mega_temperature_zero,0.2316076794124424,0.7519,0.4236,0.6151,163
+mega_include_reasoning_temperature_zero,0.2302522362455271,0.7499,0.4173,0.6683,163
+mega_with_reasoning,0.2155592097713584,0.7469,0.4307,0.669,163
+mega_persona_summary,0.2048427841541188,0.7502,0.3989,0.6228,163
+mega_full_persona_without_reasoning,0.196478682294443,0.7484,0.4291,0.6344,164

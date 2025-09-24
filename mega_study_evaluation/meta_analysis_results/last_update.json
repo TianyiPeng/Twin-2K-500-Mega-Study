@@ -1,0 +1,11 @@
+{
+  "last_update": "2025-08-31T08:45:28.106766",
+  "all_successful": true,
+  "files_generated": [
+    "combined_all_specifications_meta_analysis.csv",
+    "correlation_by_persona_and_study.csv",
+    "performance_comparison_by_metric.csv",
+    "summary_by_persona_specification_avg.csv",
+    "summary_by_persona_specification_median.csv"
+  ]
+}
