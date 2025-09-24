@@ -1,6 +1,6 @@
 # Digital Twin Simulation
 
-This repository contains code for simulating digital twins using Large Language Models (LLMs), for the purpose of reproducing the experiments in Twin-2K-500 (paper coming out soon). The project focuses on creating and simulating digital twins based on persona profiles and survey responses.
+This repository contains code for simulating digital twins using Large Language Models (LLMs), for the purpose of reproducing the experiments in Twin-2K-500 Mega Study ([paper link](https://arxiv.org/abs/2509.19088)). The project focuses on creating and simulating digital twins based on persona profiles and survey responses.
 
 ## Overview
 
